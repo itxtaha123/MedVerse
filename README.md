@@ -1,8 +1,68 @@
-# MedVerse
-A responsive medical learning portal built with React, Vite and Supabase. Features authentication, student dashboard, published tests/MCQs, study materials, OSPE practice, Pearl Points, profile, admin controls and AI study tools.
+# 🩺 MedVerse
 
-## Deploy
-Set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in the hosting environment, then run npm run build and serve the dist folder on port 8080.
+> A modern medical learning and study platform built with React, Vite, and Supabase.
 
-## Current release
-Includes the latest Admin Dashboard and AI Study Assistant release on main.
+## ✨ Features
+
+- 🔐 Authentication and user profiles
+- 📊 Student dashboard
+- 📝 Published tests and MCQs
+- 📚 Study materials
+- 🩻 OSPE practice
+- 🏆 Pearl Points and progress tracking
+- 🤖 AI Study Assistant
+- 🛠️ Admin dashboard and controls
+- 📱 Responsive interface
+
+## 🧠 Purpose
+
+MedVerse is designed to bring medical learning tools into one accessible digital platform, combining study resources, practice, progress tracking, and AI-assisted learning.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite
+- **Backend:** Supabase
+- **Database:** PostgreSQL via Supabase
+- **Authentication:** Supabase Auth
+- **AI:** AI-assisted study features
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file and configure:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 🚧 Status
+
+**Active development** — new learning, AI, and platform features are being added.
+
+## 👨‍💻 Author
+
+**Taha — [@itxtaha123](https://github.com/itxtaha123)**
+
+If you like the project, ⭐ the repository.
+
+---
+
+Built with React, Supabase, and a passion for building useful technology.
